@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="ninodezign.com, ninodezign@gmail.com">
+	<meta name="copyright" content="ninodezign.com"> 
+	<title>TGIBC | True Gospel Independent Baptist Church</title>
+	
+	<!-- favicon -->
+    <link rel="shortcut icon" href="images/ico/churchicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/churchicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/churchicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/churchicon.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/churchicon.png">
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+	<link rel="stylesheet" type="text/css" href="css/unslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/template.css" />
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 23, 2018 18:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+	var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    //document.getElementById("weeks").innerHTML = weeks;
+	document.getElementById("days").innerHTML = days;
+	document.getElementById("hours").innerHTML = hours;
+	document.getElementById("minutes").innerHTML = minutes;
+	document.getElementById("seconds").innerHTML = seconds;
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+	
+</head>
+
+<body data-target="#nino-navbar" data-spy="scroll">
+
+
+
+	<!-- Header
+    ================================================== -->
+	<header id="nino-header">
+		<div id="nino-headerInner">					
+			<nav id="nino-navbar" class="navbar navbar-default" role="navigation">
+				<div class="container">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<img src="images/ico/churchicon2.png" alt="TGIBC Logo" Style="width:45px; height:45px; display:inline-block; margin-top:-10px;"/>
+							TGIBC
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="nino-menuItem pull-right">
+						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#nino-header">Home <span class="sr-only">(current)</span></a></li>
+								<li><a href="#nino-story">About</a></li>
+								<li><a href="#nino-services">Service</a></li>
+								<li><a href="#nino-whatWeDo">Meet Pastor</a></li>
+								<li><a href="#nino-portfolio">Gallery</a></li>
+								<li><a href="#nino-latestBlog">Events</a></li>
+								<li><a href="#nino-map">Contact</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</div><!-- /.container-fluid -->
+			</nav>
+
+			<section id="nino-slider" class="carousel slide container" data-ride="carousel">
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<h2 class="nino-sectionHeading">
+						<span class="nino-subHeading">Welcome to TGIBC</span>
+							True Gospel
+							<span class="nino-subHeading">Independent Baptist Church</span>
+						</h2>
+						<a href="#nino-map" class="nino-btn">I'm new</a>
+					</div>
+					<div class="item nino2">
+						<h2 class="nino-sectionHeading">
+							<span class="nino-subHeading">The place where missfits fit</span>	
+						</h2>
+						<span Style="font-style:italic;">"Sanctify them through thy truth: thy word is truth"<br />
+						John 17 : 17<br /><br />
+						<a href="#nino-services" class="nino-btn">Learn more</a>
+					</div>
+					<div class="item">
+						<h2 class="nino-sectionHeading">
+							<span class="nino-subHeading">You're invited to come to our services!</span>
+						</h2>
+						<div class="nino2 tb-nino">
+							<!-- <table> -->
+								<!-- <tr> -->
+									<!-- <td>Sunday School</td> -->
+									<!-- <td>-</td> -->
+									<!-- <td>10:00 AM</td> -->
+								<!-- </tr> -->
+								<!-- <tr> -->
+									<!-- <td>Sunday Morning</td> -->
+									<!-- <td>-</td> -->
+									<!-- <td>11:00 AM</td> -->
+								<!-- </tr> -->
+								<!-- <tr> -->
+									<!-- <td>Sunday Evening</td> -->
+									<!-- <td>-</td> -->
+									<!-- <td>06:00 PM</td> -->
+								<!-- </tr> -->
+								<!-- <tr> -->
+									<!-- <td>Wednesday Prayer Time</td> -->
+									<!-- <td>-</td> -->
+									<!-- <td>06:30 PM</td> -->
+								<!-- </tr> -->
+								<!-- <tr> -->
+									<!-- <td>Wednesday Bible Study</td> -->
+									<!-- <td>-</td> -->
+									<!-- <td>07:00 PM</td> -->
+								<!-- </tr> -->
+							<!-- </table> -->
+							<ul>
+								<li>Sunday School - 10:00 AM</li>
+								<li>Sunday Morning - 11:00 AM</li>
+								<li>Sunday Evening - 06:00 PM</li>
+								<li>Wednesday Prayer Time - 06:30 PM</li>
+								<li>Wednesday Bible Study - 07:00 PM</li>
+							</ul>
+						</div>
+					</div>
+					<div class="item">
+						<h2 class="nino-sectionHeading">
+							<span class="nino-subHeading">Come and visit us!</span>
+						</h2>
+						<span class="nino2">
+							<i class="mdi mdi-cellphone nino-icon"></i>(850)602 1413<br />
+							<i class="mdi mdi-map-marker nino-icon"></i>6389 Simpson Dr.<br />
+							Milton, Florida 32570<br />
+							United States<br />
+						<a href="#nino-map" class="nino-btn">See map</a>
+					</div>
+				</div>
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators clearfix">
+					<li data-target="#nino-slider" data-slide-to="0" class="active">
+						<div class="inner">
+							<span class="number">01</span> welcome	
+						</div>
+					</li>
+					<li data-target="#nino-slider" data-slide-to="1">
+						<div class="inner">
+							<span class="number">02</span> about
+						</div>
+					</li>
+					<li data-target="#nino-slider" data-slide-to="2">
+						<div class="inner">
+							<span class="number">03</span> services
+						</div>
+					</li>
+					<li data-target="#nino-slider" data-slide-to="3">
+						<div class="inner">
+							<span class="number">04</span> contacts
+						</div>
+					</li>
+				</ol>
+			</section>
+		</div>
+	</header><!--/#header-->
+
+	<!-- Story About Us
+    ================================================== -->
+	<section id="nino-story">
+		<div class="container">
+			<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">Our Belief</span>
+				<a href="believe.html" class="subHeader2" id="subHeader2Link">statement of faith <i class="mdi mdi-subdirectory-arrow-right nino-icon"></i></a>
+			</h2>
+			<p class="nino-sectionDesc">
+			Reconnect with God through the worship services and prayer meetings of True Gospel Independent Baptist Church in Milton, FL. Our activities help enhance your faith and inspire you to live a truly Christian life that is pleasing and meaningful to the Lord.
+			</p>
+			<div class="sectionContent">
+				<div class="row nino-hoverEffect">
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+							<a class="overlay" href="#">
+								<span class="content">
+									<i class="mdi mdi-account-multiple nino-icon"></i>
+									Fellowship
+								</span>
+								<img src="images/story/fellowships.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+							<a class="overlay" href="#">
+								<span class="content">
+									<i class="mdi mdi-human-greeting nino-icon"></i>
+									Worship
+								</span>
+								<img src="images/story/img-5.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="item">
+							<a class="overlay" href="#">
+								<span class="content">
+									<i class="mdi mdi-library-books nino-icon"></i>
+									Bible Study
+								</span>
+								<img src="images/story/bible.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section><!--/#nino-story-->
+
+	<!-- Counting -->
+    <!-- ================================================== -->
+    <section id="nino-counting">
+    	<div class="container">
+		<div class="countdown">
+		Countdown till Christmas Service!!
+		</div>
+    		<div layout="row" class="verticalStretch">
+    			<!-- <div class="item"> -->
+    				<!-- <div id="weeks" class="number">0</div> -->
+    				<!-- <div class="text">weeks</div> -->
+    			<!-- </div> -->
+    			<div class="item">
+    				<div id="days" class="number">0</div>
+    				<div class="text">days</div>
+    			</div>
+    			<div class="item">
+    				<div id="hours" class="number">0</div>
+    				<div class="text">hours</div>
+    			</div>
+    			<div class="item">
+    				<div id="minutes" class="number">0</div>
+    				<div class="text">minutes</div>
+    			</div>
+    			<div class="item">
+    				<div id="seconds" class="number">0</div>
+    				<div class="text">seconds</div>
+    			</div>
+    		</div>
+    	</div>
+    </section><!--/#nino-counting 
+	<hr />
+
+    <!-- Services -->
+    <!-- ================================================== -->
+    <section id="nino-services">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">When do we meet</span>
+				<span class="subHeader2">Church Services</span>
+			</h2>
+			<div class="sectionContent">			
+				<div class="fw" layout="row">
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-human-child nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Children Sunday School</h4>
+								<p>Sunday Morning </br >
+								10:00 AM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-human nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Adult Sunday School</h4>
+								<p>Sunday Morning </br >
+								10:00 AM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-bookmark-plus-outline nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Morning Services</h4>
+								<p>Sunday Morning </br >
+								10:00 AM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-brightness-3 nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Evening Services</h4>
+								<p>Sunday Evening </br >
+								18:00 PM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-blur nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Prayer Meeting</h4>
+								<p>Wednesday Evening </br >
+								18:30 PM
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 item ">
+						<div layout="row">
+							<i class="mdi mdi-diamond nino-icon fsr"></i>
+							<div>
+								<h4 class="nino-serviceTitle">Bible Study</h4>
+								<p>Wednesday Evening</br >
+								19:00 PM
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</div>
+     </section>
+	<!--/#nino-services-->
+
+    <!-- Unique Design
+    ================================================== -->
+    <!-- <section id="nino-uniqueDesign"> -->
+    	<!-- <div class="container"> -->
+    		<!-- <h2 class="nino-sectionHeading"> -->
+				<!-- <span class="nino-subHeading">For all devices</span> -->
+				<!-- Unique design -->
+			<!-- </h2> -->
+			<!-- <div class="sectionContent"> -->
+				<!-- <div class="nino-devices"> -->
+					<!-- <img class="tablet" src="images/unique-design/img-1.png" alt=""> -->
+					<!-- <img class="mobile" src="images/unique-design/img-2.png" alt=""> -->
+				<!-- </div> -->
+			<!-- </div> -->
+    	<!-- </div> -->
+    <!-- </section> -->
+	<!--/#nino-uniqueDesign--> 
+
+	<!-- Testimonial
+    ================================================== -->
+    <section class="nino-testimonial">
+    	<div class="container">
+    		<div class="nino-testimonialSlider">
+				<ul>
+					<li>
+						<div layout="row">
+							<div class="nino-symbol fsr">
+								<i class="mdi mdi-comment-multiple-outline nino-icon"></i>
+							</div>
+							<div>
+								<p class="quote">"Thus saith the LORD: Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein, and ye shall find rest for your souls."</p>
+								<span class="name">Jeremiah 6:16</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div layout="row">
+							<div class="nino-symbol fsr">
+								<i class="mdi mdi-wechat nino-icon"></i>	
+							</div>
+							<div>
+								<p class="quote">"Sanctify them through thy truth, thy word is truth."</p>
+								<span class="name">John 17:17</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div layout="row">
+							<div class="nino-symbol fsr">
+								<i class="mdi mdi-message-text-outline nino-icon"></i>
+							</div>
+							<div>
+								<p class="quote">"And he said unto them, Go ye into all the world, and preach the gospel to every creature."</p>
+								<span class="name">Mark 16:15</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+    	</div>
+    </section>
+	<!--/#nino-testimonial-->
+	
+    <!-- What We Do
+    ================================================== -->
+    <section id="nino-whatWeDo">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">Meet our pastor</span>
+				<span class="subHeader2">Pastor George Trapani</span>
+			</h2>
+			<p class="nino-sectionDesc">
+				Our pastor George E. Trapani was born in Haverstraw, NY and was raised in Queens, NY until his family moved to the south in 1974. He was led to the Lord on March 13, 1988 by Bill Chrysler, one of God's most faithful servants. Brother George became a member of the Charity Baptist Church of Cantonment in Florida with Dr. James McGaughey as his pastor. During his time there, the Lord called upon his heart to study the Word of God and was introduced to Dr. Harrold Tabb, the president and founder of Gulf Coast Bible Institute where Bro. George studied and earned two degrees.
+			</p>
+			<div class="sectionContent">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="text-center">
+							<img src="images/what-we-do/Trapani.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingOne">
+									<h4 class="panel-title">
+										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
+											<i class="mdi mdi-worker nino-icon"></i> 
+											Work Experience
+										</a>
+									</h4>
+								</div>
+								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									<div class="panel-body">
+										During his stay in the Gulf Coast Bible Institute, the Lord called him to preach the Gospel. After graduation, Bro. George yielded to the call of God, entering the ministry as a missionary and working with the troubled youth of America. He became a member of Faith Baptist Church in Pell City which was also the home of Missions to America's Juvenile Delinquents under the leadership of Pastor David Wood. Bro. George served 18 years on the field as a chaplain of long-term facilities and an evangelist to detention centers all over Alabama and North West Florida.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingTwo">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
+											<i class="mdi mdi-brightness-6 nino-icon"></i> 
+											New Beginnings
+										</a>
+									</h4>
+								</div>
+								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									<div class="panel-body">
+										While serving as chaplain for the Department of Youth Services in AL, he received a call from Mount Calvary Baptist Church in Milton, FL (now called True Gospel Independent Baptist Church) because we needed a new pastor. Not knowing what the Lord would do or why we called him out of the blue, Bro. George offered to preach for us. After several meetings, we finally asked him to be our pastor. Brother George became the pastor of our church in June 2009.
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									<h4 class="panel-title">
+										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											<i class="mdi mdi-chevron-up nino-icon arrow"></i>
+											<i class="mdi mdi-face nino-icon"></i> 
+											Personal Life
+										</a>
+									</h4>
+								</div>
+								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div class="panel-body">
+										Pastor George has been married to Carolyn Swinney Trapani for 15 years. They have one daughter named Mackenzie, who serves the Lord by playing the piano. Pastor George’s love for the youth is evident in his preaching. Our pastor is a great Bible teacher and old-fashioned preacher.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </section><!--/#nino-whatWeDo-->
+
+    
+
+    <!-- Our Team
+    ================================================== -->
+	<!-- <section id="nino-ourTeam"> -->
+		<!-- <div class="container"> -->
+			<!-- <h2 class="nino-sectionHeading"> -->
+				<!-- <span class="nino-subHeading">Who we are</span> -->
+				<!-- Meet our team -->
+			<!-- </h2> -->
+			<!-- <p class="nino-sectionDesc"> -->
+				<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  -->
+			<!-- </p> -->
+			<!-- <div class="sectionContent"> -->
+				<!-- <div class="row nino-hoverEffect"> -->
+					<!-- <div class="col-md-4 col-sm-4"> -->
+						<!-- <div class="item"> -->
+							<!-- <div class="overlay" href="#"> -->
+								<!-- <div class="content"> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a> -->
+								<!-- </div> -->
+								<!-- <img src="images/our-team/img-1.jpg" alt=""> -->
+							<!-- </div> -->
+						<!-- </div> -->
+						<!-- <div class="info"> -->
+							<!-- <h4 class="name">Matthew Dix</h4> -->
+							<!-- <span class="regency">Graphic Design</span> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-md-4 col-sm-4"> -->
+						<!-- <div class="item"> -->
+							<!-- <div class="overlay" href="#"> -->
+								<!-- <div class="content"> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a> -->
+								<!-- </div> -->
+								<!-- <img src="images/our-team/img-2.jpg" alt=""> -->
+							<!-- </div> -->
+						<!-- </div> -->
+						<!-- <div class="info"> -->
+							<!-- <h4 class="name">Christopher Campbell</h4> -->
+							<!-- <span class="regency">Branding/UX design</span> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-md-4 col-sm-4"> -->
+						<!-- <div class="item"> -->
+							<!-- <div class="overlay" href="#"> -->
+								<!-- <div class="content"> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-facebook"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-twitter"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-pinterest"></i></a> -->
+									<!-- <a href="#" class="nino-icon"><i class="mdi mdi-instagram"></i></a> -->
+								<!-- </div> -->
+								<!-- <img src="images/our-team/img-3.jpg" alt=""> -->
+							<!-- </div> -->
+						<!-- </div> -->
+						<!-- <div class="info"> -->
+							<!-- <h4 class="name">Michael Fertig </h4> -->
+							<!-- <span class="regency">Developer</span> -->
+						<!-- </div> -->
+					<!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
+		<!-- </div> -->
+	<!-- </section> -->
+	<!--/#nino-ourTeam-->
+
+	<!-- Brand
+    ================================================== -->
+    <!-- <section id="nino-brand"> -->
+    	<!-- <div class="container"> -->
+    		<!-- <div class="verticalCenter fw" layout="row"> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-1.png" alt=""></a></div> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-2.png" alt=""></a></div> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-3.png" alt=""></a></div> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-4.png" alt=""></a></div> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-5.png" alt=""></a></div> -->
+    			<!-- <div class="col-md-2 col-sm-4 col-xs-6"><a href="#"><img src="images/brand/img-6.png" alt=""></a></div> -->
+    		<!-- </div> -->
+    	<!-- </div> -->
+    <!-- </section> -->
+	<!--/#nino-brand-->
+
+	    <!-- Future Events
+    ================================================== -->
+    <section id="nino-happyClient">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">What do we believe</span>
+				<span class="subHeader2">Our Statement of Faith</span>
+			</h2>
+			<p class="nino-sectionDesc">
+<span class="statement">The Bible</span><br />
+
+We believe the King James Bible to be the infallible preserved Word of God and therefore it is to be the official and only Bible used by the church and its ministries. (Psalm 12:6-7 / II Timothy 3:16-17 / II Peter 1:20-21)
+
+ <br /><br />
+
+<span class="statement">The Godhead</span><br />
+
+We believe in one triune God, eternally existing in three persons—Father, Son, and Holy Spirit—each co-eternal in being, co-identical in nature, co-equal in power and glory, and having the same attributes and perfection. (Deut. 6:4 / Matt. 28:19 / John 14:10, 26:2, II Cor. 13:14)
+
+ <br /><br />
+
+<span class="statement">The Person and Work of Christ</span><br />
+
+We believe that the Lord Jesus Christ, the eternal Son of God, became man, without ceasing to be God, having been conceived by the Holy Ghost and born of the Virgin Mary in order that He might reveal God and redeem sinful men due to their sinless nature. (Isa.7:14; 9:6 / Luke 1:35 / John 1:1-2 & 14 / II Cor.5:19 - 21 / Gal. 4:4-5 / Phil. 2:5-8)
+
+ <br />
+
+We believe that the Lord Jesus Christ accomplished our redemption through His death on the cross as a representative, vicarious, substitutionary sacrifice and that our justification is made sure by His literal, physical resurrection from the dead. (Acts 2:18-36 / Romans 3:24-25 / Eph. 1:7 / I Peter 2:24 / I Peter 1:35)
+<br />
+ 
+
+We believe that the Lord Jesus Christ ascended to Heaven and is now exalted at the right hand of God the Father where, as our High Priest, He fulfills the ministry of representative, intercessor, and advocate. (Acts 1:1-10 / Romans 8:34 / Heb. 9:24 & 7:25 / I John 2:1-2)
+
+ <br /><br />
+
+<span class="statement">The Person and Work of the Holy Spirit</span><br />
+
+We believe the Holy Spirit convicts the world of sin, of righteousness, and of judgment, that He is the Supernatural Agent in regeneration, baptizing all believers in the holy body of Christ, indwelling and sealing them unto the day of redemption. (John 16:8-11 / Rom. 8:9 / I Cor. 12:12-14 / II Cor. 3:6 / Eph. 1:13-14)
+
+ <br />
+
+We believe that He is the divine teacher who assists believers to understand and appropriate the Scriptures and that it is the privilege and duty of all saved to be filled with the Spirit. (Eph. 1:17-18 & 5:18 / I John 2:20-27)
+
+ <br />
+
+We believe that God is sovereign in the bestowal of spiritual gifts to every believer. God uniquely uses evangelists, pastors, and teachers to equip the congregation to do the work of the ministry. (Rom. 12:3-8 / I Cor. 12:4-11&28 / Eph. 4:7-12)
+
+ <br />
+
+We believe that the sign gifts of the Holy Spirit; such as speaking in tongues, the gift of healing, ingesting poison, and handling snakes were temporary. Speaking in tongues was never the common or necessary sign of the baptism or filling of the Holy Spirit. Ultimate deliverance of the body from sickness or death awaits the consummation of our salvation in the resurrection, though God frequently chooses to answer the prayers of believers for physical healing. (I Cor. 1:22; 13:8; 14:21-22)
+<br />
+ <br />
+
+<span class="statement">The Total Depravity of Man</span><br />
+
+We believe that man was created in the image and likeness of God; but that in Adam's sin the human race fell, inherited a sinful nature, and became alienated from God. Man is totally depraved, and, of himself, utterly unable to remedy his lost condition. (Gen 1:26-27 / Rom. 3:22-23; 5:12; 6:23 / Eph. 2:1-3; 4:1-17-19)
+<br />
+ <br />
+
+<span class="statement">Salvation</span><br />
+
+We believe that salvation is the gift of God, brought to man by grace and received bypersonal faith in the Lord Jesus Christ, whose precious blood was shed on Calvary for the forgiveness of our sins. (Matt. 12:31-32 / John 1:1-2 / Eph. 1:7, @:8-10 / I Peter 1:18-19 / I John 1:9)
+
+ <br />
+<br />
+<span class="statement">Eternal Security</span><br />
+
+We believe that all the redeemed, once saved, are kept by the power of God and are secure in Christ forever. (John 6:37-40; 10:27-30 / Rom. 8:1 & 38-39 / I Cor. 1:4-8 / I Peter 1:4-5)
+
+ <br />
+
+We believe that it is the privilege of believers to rejoice in the assurance of their salvation through the testimony of God's Word, which, however, clearly forbids the use of Christian liberty as an occasion to sin. (Rom. 13:13-14 / Gal. 5:13 / Titus 2:11-15)
+
+ <br /><br />
+
+<span class="statement">The Church</span><br />
+
+We believe that the local church, which is the body and the espoused bride of Christ, is solely made up of born-again persons. (I Cor. 12:12-14 / II Cor. 11:2 / Eph. 1:22-23; 5:25-27)
+<br />
+ 
+
+We believe that the establishment and continuance of local churches is clearly taught and defined in the New Testament Scriptures. (Acts 14:27; 20:17&28-32 / I Tim. 3:1-13 / Titus 1:5-11)
+
+ <br />
+
+We believe in the autonomy of the local church free of any external authority or control. The church at no time shall join or be part of a denomination or religious organization. (Acts 13:1-4; 15:19-31; 20:28 / Rom. 16:1&4 / I Cor. 3:9, 16 & 5:4-7 / I Peter 5:1-4)
+
+ <br />
+
+We believe that water baptism by immersion and the Lord's Supper as the only Scriptural ordinances of obedience for the church. (Matt. 28:19-20 / Acts 2:41-42; 8:36-38 / I Cor. 11:23-26)
+
+ <br /><br />
+
+<span class="statement">Separation</span><br />
+
+We believe that all saved should live in such a manner as not to bring reproach upon their Savior and Lord. God commands His people to separate from all religious apostasy, the world, works of darkness, practices, associations, and to refrain from all modest and immoderate appearance. (Rom. 12:1-2; 14; 13 / I Cor. 6:19-20 / II Cor. 6:14-7 / II Tim. 3:1-5 / I John 2:15-17 / II John 9-11)
+
+ <br /><br />
+
+<span class="statement">The Second Advent of Christ</span><br />
+
+We believe in that blessed hope, the personal, imminent return of Christ, who will rapture His church prior to the seven-year Tribulation period. At the end of the Tribulation, Christ will personally and visibly return with His saints, to establish His earthly Messianic Kingdom which was promised to the nation of Israel. (Ps. 89:3-4 / Dan. 2:31-45 / Zech. 14:4-11 / I Thess. 1:10; 4:13-18; Titus 2:13 / Rev. 3:10; 19:11-16; 20:1-6)
+
+ <br /><br />
+
+<span class="statement">The Eternal State</span><br />
+
+We believe in the bodily resurrection of all men, the saved to eternal life, and the unsaved to judge\ment and everlasting punishment. (Matt. 25:46 / John 5:28-29; 11:25-26 / Rev. 20:5-6, 12-13)
+
+ <br />
+
+We believe that the souls of the redeemed are, at death, absent from the body and present with the Lord, where conscious bliss they await the first resurrection, when spirit, soul, and body are reunited to be glorified forever with the Lord. (Luke 23:43 / II Cor. 5:8 / Phil. 1:23; 3:21 / I Thess. 4:16-17; Rev.20:4-6)
+
+ <br />
+
+We believe that the souls of unbelievers remain after death, in conscious punishment and torment until the resurrection of the dead, when with soul and body reunited, they shall appear at the Great White Throne Judgment, and shall be cast into the Lake of Fire, not to be annihilated, but to suffer everlasting, conscious punishment and torment. (Matt. 25:41-46 / Mark 9:43-48 / Luke 16:19-26 / II Thess. 1:7-9 / Jude 6-7 / Rev. 20:11-15)
+
+ <br /><br />
+
+<span class="statement">The Personality of Satan</span><br />
+
+We believe that Satan is a created person, the author of sin and the cause of thefall of man; that he is the open and declared enemy of God and man; and that he shall be eternally punished in the Lake of Fire. (Job 1:6-7 / Isa. 14:12-17 / Matt. 4:2-11; 25-41 / Rev. 20:10)
+			</p>
+			
+			
+			<!-- <div class="sectionContent"> -->
+				<!-- <div class="row"> -->
+					<!-- <div class="col-md-6"> -->
+						<!-- <div layout="row" class="item"> -->
+							<!-- <div class="nino-avatar fsr"> -->
+								<!-- <img class="img-circle" src="images/happy-client/img-1.jpg" alt=""> -->
+							<!-- </div> -->
+							<!-- <div class="info"> -->
+								<!-- <h4 class="name">Matthew Dix</h4> -->
+								<!-- <span class="regency">Graphic Design</span> -->
+								<!-- <p class="desc"> -->
+									<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus sapiente, sint, voluptatibus tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum -->
+								<!-- </p> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-md-6"> -->
+						<!-- <div layout="row" class="item"> -->
+							<!-- <div class="nino-avatar fsr"> -->
+								<!-- <img class="img-circle" src="images/happy-client/img-2.jpg" alt=""> -->
+							<!-- </div> -->
+							<!-- <div class="info"> -->
+								<!-- <h4 class="name">Nick Karvounis</h4> -->
+								<!-- <span class="regency">Graphic Design</span> -->
+								<!-- <p class="desc"> -->
+									<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo cupiditate temporibus sapiente, sint, voluptatibus tempora esse. Consectetur voluptate nihil quo nulla voluptatem dolorem harum nostrum -->
+								<!-- </p> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+				<!-- </div>--> -->
+				<!-- <div class="row"> -->
+					<!-- <div class="col-md-6"> -->
+						<!-- <div layout="row" class="item"> -->
+							<!-- <div class="nino-avatar fsr"> -->
+								<!-- <img class="img-circle" src="images/happy-client/bells.jpg" alt=""> -->
+							<!-- </div> -->
+							<!-- <div class="info"> -->
+								
+								<!-- <h4 class="name">Christmas Cantata</h4> -->
+								<!-- <span class="regency">December 24,2017 at 4:00 PM</span> -->
+								<!-- <p class="desc"> -->
+									<!-- Join us on our Christmas Cantata celebration at Christmas eve! We promise that you will enjoy our wonderful service and there will be a surprise waiting. -->
+								<!-- </p> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+					<!-- <div class="col-md-6"> -->
+						<!-- <div layout="row" class="item"> -->
+							<!-- <div class="nino-avatar fsr"> -->
+								<!-- <img class="img-circle" src="images/happy-client/fireworks.jpg" alt=""> -->
+							<!-- </div> -->
+							<!-- <div class="info"> -->
+							<!-- <h4 class="name">New Years Countdown Party!</h4> -->
+								<!-- <span class="regency">December 31, 2017 at 8:00 PM</span> -->
+								<!-- <p class="desc"> -->
+									<!-- New Years won't be perfect without our new life in Christ! Join us to celebrate the upcoming New Year together with TGIBC! -->
+								<!-- </p> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					<!-- </div> -->
+				<!-- </div> -->
+			<!-- </div> -->
+    	</div>
+    </section><!--/#nino-happyClient-->
+
+	
+	<!-- Portfolio
+    ================================================== -->
+	<section id="nino-portfolio">
+		<div class="container">
+			<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">What we do</span>
+				<span class="subHeader2">our fellowship</span>
+			</h2>
+			<p class="nino-sectionDesc">
+				We do worship services, Bible classes, Children ministry and other activities that help strengthen your faith. Whether you’re a devoted believer or someone simply seeking spiritual guidance, we gladly welcome you with open arms.
+			</p>
+		</div>
+		<div class="sectionContent">
+			<ul class="nino-portfolioItems">
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/wedding.jpg">
+						<img class="churchGallery" src="images/our-work/wedding.jpg" />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-crown nino-icon"></i>
+								<h4 class="title">Andrei & Nike's</h4>
+								<span class="desc">Wedding Celebration</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/members.jpg">
+						<img class="churchGallery" src="images/our-work/members.jpg" />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-cube-outline nino-icon"></i>
+								<h4 class="title">Church Service</h4>
+								<span class="desc"></span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/Sign.jpg">
+						<img class="churchGallery" src="images/our-work/ChurchSign.jpg" />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-desktop-mac nino-icon"></i>
+								<h4 class="title">TGIBC Church Sign</h4>
+								<span class="desc">Letting people know where we are</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/construction3.jpg">
+						<img class="churchGallery" src="images/our-work/construction3.jpg" />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-flower nino-icon"></i>
+								<h4 class="title">During Church's construction</h4>
+								<span class="desc">We don't have pews and carpet yet!</span>
+								
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/Church.jpg">
+						<img class="churchGallery" src="images/story/christmasPractice.jpg" Style="height:220px; width:520px;"/>
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-church nino-icon"></i>
+								<h4 class="title">Christmas Practice</h4>
+								<span class="desc"></span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/brooklyMaddie.jpg">
+						<img class="churchGallery" src="images/our-work/brooklyMaddie.jpg" Style="height:212px; width:500px;"/>
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-account-star nino-icon"></i>
+								<h4 class="title">Special performance</h4>
+								<span class="desc">Brooklyn & Maddie</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="item">
+					<a class="nino-prettyPhoto" rel="prettyPhoto[gallery1]" title="Development Mobile" href="images/our-work/babyshower.jpg">
+						<img class="churchGallery" src="images/our-work/babyshower.jpg" />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-food nino-icon"></i>
+								<h4 class="title">TGIBC</h4>
+								<span class="desc">Fellowship hall</span>
+							</div>
+						</div>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+	</section><!--/#nino-portfolio-->
+
+
+    <!-- Latest Events
+    ================================================== -->
+    <section id="nino-latestBlog">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+				<span class="nino-subHeading subHeader1">Our stories</span>
+				<span class="subHeader2">Latest Events</span>
+			</h2>
+			<div class="sectionContent">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a><img src="images/2018/BeeAndZ.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">11</span>
+									<span class="text">Nov</span>
+								</div>
+							</div>
+							<h3 class="articleTitle">Thanksgiving Service</h3>
+							<p class="articleDesc">
+								We had a great Thanksgiving service and fellowship! Brother Jeremiah preached boldly on the difference between "give thanks" and "thankfulness". Happy Thanksgiving everyone!
+							</p>
+							<!-- <div class="articleMeta"> -->
+								<!-- <a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a> -->
+								<!-- <a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a> -->
+							<!-- </div> -->
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a><img src="images/our-Blog/img-7.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">15</span>
+									<span class="text">Jan</span>
+								</div>
+							</div>
+							<h3 class="articleTitle">Brother Caine's Baptism</h3>
+							<p class="articleDesc">
+								Borther Caine has received Christ as his personal savior and decided to make a public announcement through Baptism! Glory to God!
+							</p>
+							<!-- <div class="articleMeta"> -->
+								<!-- <a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a> -->
+								<!-- <a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a> -->
+							<!-- </div> -->
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a><img src="images/our-Blog/img-4.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">14</span>
+									<span class="text">Jan</span>
+								</div>
+							</div>
+							<h3 class="articleTitle">Church's dedication</h3>
+							<p class="articleDesc">
+								After months of prayer and hardwork, we finally finished the church construction, and dedicated our church on November 2nd! Praise the Lord!
+							</p>
+							<!-- <div class="articleMeta"> -->
+								<!-- <a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a> -->
+								<!-- <a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a> -->
+							<!-- </div> -->
+						</article>
+					</div>
+					<!-- <div class="col-md-4 col-sm-4"> -->
+						<!-- <article> -->
+							<!-- <div class="articleThumb"> -->
+								<!-- <a><img src="images/our-Blog/singers.jpg" alt=""></a> -->
+								<!-- <div class="date"> -->
+									<!-- <span class="number">10</span> -->
+									<!-- <span class="text">Dec</span> -->
+								<!-- </div> -->
+							<!-- </div> -->
+							<!-- <h3 class="articleTitle">Seminole String Band</h3> -->
+							<!-- <p class="articleDesc"> -->
+								<!-- Psalm 95:1 says "O come, let us sing unto the Lord: let us make a joyful noise to the rock of our salvation." We are glad to have Seminole String Band came to our church! -->
+							<!-- </p> -->
+							<!-- <div class="articleMeta"> -->
+								<!-- <a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a> -->
+								<!-- <a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a> -->
+							<!-- </div> -->
+						<!-- </article> -->
+					<!-- </div> -->
+				</div>
+			</div>
+    	</div>
+    </section><!--/#nino-latestBlog-->
+
+    <!-- Map
+    ================================================== -->
+    <section id="nino-map">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+    			<i class="mdi mdi-map-marker nino-icon"></i>
+    			<span class="text">Open map</span>
+    			<span class="text" style="display: none;">Close map</span>
+    		</h2>
+    		<div class="mapWrap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.613600647137!2d-87.05857908510983!3d30.61666028167771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8890e58ebc2767b3%3A0x900421375ae37fd7!2s6389+Simpson+Dr%2C+Milton%2C+FL+32570!5e0!3m2!1sen!2sus!4v1504053508656" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+	    	</div>
+    	</div>
+    </section><!--/#nino-map-->
+	
+    <!-- Footer
+    ================================================== -->
+    <footer id="footer">
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-4">
+        			<div class="colInfo">
+	        			<div class="footerLogo">
+							<img src="images/ico/churchicon2.png" alt="TGIBC Logo" Style="width:65px; height:45px; display:inline-block; margin-top:-15px;"/>
+	        				<a href="#" class="subHeader1">TGIBC</a>	
+	        			</div>
+	        			<p>
+	        				Establish a closer relationship with God at True Gospel Independent Baptist Church. If you are interested in attending our worship services, don’t hesitate to visit our church. You may also contact us for more information about our Bible classes, prayer meetings, children ministry and other activities.
+	        			</p>
+	        			<div class="nino-followUs">
+	        				<!--<div class="totalFollow"><span>15k</span> followers</div>-->
+	        				<!--<div class="socialNetwork">
+	        					<span class="text">Follow Us: </span>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-facebook"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-twitter"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-instagram"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-pinterest"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-google-plus"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-youtube-play"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-dribbble"></i></a>
+	        					<a href="" class="nino-icon"><i class="mdi mdi-tumblr"></i></a>
+	        				</div>-->
+	        			</div>
+	        			<!--<form action="" class="nino-subscribeForm">
+	        				<div class="input-group input-group-lg">
+								<input type="email" class="form-control" placeholder="Your Email" required>
+								<span class="input-group-btn">
+									<button class="btn btn-success" type="submit">Subscribe</button>
+								</span>
+							</div>
+	        			</form>-->
+        			</div>
+        		</div>
+        		<div class="col-md-4 col-sm-6">
+        			<div class="colInfo">
+	        			<h3 class="nino-colHeading subHeader1">BIG Events</h3>
+	        			<ul class="listArticles">
+							<!-- <li layout="row" class="verticalCenter"> -->
+	        					<!-- <a class="articleThumb fsr" href="#"><img src="images/happy-client/thanksgiving.jpg" alt=""></a> -->
+	        					<!-- <div class="info"> -->
+	        						<!-- <h3 class="articleTitle">Thanksgiving Service</h3> -->
+	        						<!-- <div class="date">Nov 11, 2018</div> -->
+	        					<!-- </div> -->
+	        				<!-- </li> -->
+							<li layout="row" class="verticalCenter">
+	        					<a class="articleThumb fsr" href="#"><img src="images/happy-client/christmas.jpg" alt=""></a>
+	        					<div class="info">
+	        						<h3 class="articleTitle">Christmas Banquet</h3>
+	        						<div class="date">Dec 23, 2018</div>
+	        					</div>
+	        				</li>
+							<li layout="row" class="verticalCenter">
+	        					<a class="articleThumb fsr" href="#"><img src="images/happy-client/revival.jpg" alt=""></a>
+	        					<div class="info">
+	        						<h3 class="articleTitle">Revival Services</h3>
+	        						<div class="date">Dec 28, 2018 - Dec 31, 2018</div>
+	        					</div>
+	        				</li>
+	        				<!-- <li layout="row" class="verticalCenter"> -->
+	        					<!-- <a class="articleThumb fsr" href="#"><img src="images/our-Blog/construction.jpg" alt=""></a> -->
+	        					<!-- <div class="info"> -->
+	        						<!-- <h3 class="articleTitle">Church Construction</h3> -->
+	        						<!-- <div class="date">Jan 9, 2016</div> -->
+	        					<!-- </div> -->
+	        				<!-- </li> -->
+	        				<!-- <li layout="row" class="verticalCenter"> -->
+	        					<!-- <a class="articleThumb fsr" href="#"><img src="images/our-Blog/members.jpg" alt=""></a> -->
+	        					<!-- <div class="info"> -->
+	        						<!-- <h3 class="articleTitle">Revival</h3> -->
+	        						<!-- <div class="date">Jan 9, 2016</div> -->
+	        					<!-- </div> -->
+	        				<!-- </li> -->
+	        				<!-- <li layout="row" class="verticalCenter"> -->
+	        					<!-- <a class="articleThumb fsr" href="#"><img src="images/our-Blog/babyshower.jpg" alt=""></a> -->
+	        					<!-- <div class="info"> -->
+	        						<!-- <h3 class="articleTitle">Baby Shower</h3> -->
+	        						<!-- <div class="date">Dec 10, 2016</div> -->
+	        					<!-- </div> -->
+	        				<!-- </li> -->
+	        			</ul>
+        			</div>
+        		</div>
+        		<div class="col-md-4 col-sm-6">
+        			<div class="colInfo connect2">
+	        			<h3 class="nino-colHeading subHeader1">Let's connect</h3>
+	        			<div class="instagramImages clearfix">
+	        				<ul>
+							<li>
+							<i class="mdi mdi-cellphone nino-icon"></i>(850)602 1413<br />
+							<i class="mdi mdi-map-marker nino-icon"></i>6389 Simpson Dr.<br />
+							&nbsp;&nbsp;&nbsp;Milton, Florida 32570<br />
+							&nbsp;&nbsp;&nbsp;United States</li>
+							</ul>
+	        			</div>
+	        			
+        			</div>
+        		</div>
+        	</div>
+			<div class="nino-copyright">Copyright &copy; 2016 True Gospel Independent Baptist Church
+			<!-- <a target="_blank" href="http://www.ninodezign.com/" title="Ninodezign.com - Top quality open source resources for web developer and web designer">Ninodezign.com</a>. All Rights Reserved. <br/> TGIBC free PSD template by <a href="https://www.behance.net/laaqiq">Laaqiq</a> -->
+			</div>
+        </div>
+    </footer><!--/#footer-->
+
+    <!-- Search Form - Display when click magnify icon in menu
+    ================================================== -->
+    <form action="" id="nino-searchForm">
+    	<input type="text" placeholder="Search..." class="form-control nino-searchInput">
+    	<i class="mdi mdi-close nino-close"></i>
+    </form><!--/#nino-searchForm-->
+	
+    <!-- Scroll to top
+    ================================================== -->
+	<a href="#" id="nino-scrollToTop">Go to Top</a>
+	
+	<!-- javascript -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="js/unslider-min.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- css3-mediaqueries.js for IE less than 9 -->
+	<!--[if lt IE 9]>
+	    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+		
+</body>
+</html>
